@@ -253,44 +253,66 @@ Result:
 
 ```json
 {
-    "jsonrpc": "2.0",
-    "id": 1,
-    "result": {
-        "version": 0,
-        "hash": "0x5038c222d460c32fd06df36d58bb7cf5c368a55e207a46ecb18695451bfe4069",
-        "header": {
-            "timestamp": 1499756200950,
-            "prevHash": "0xb28ec1911d375350664b9673a61d952e9a748f3e63606f1440f313c4911fde58",
-            "proof": {
-                "proposal": "0x0f25d396361c7d54bb16389f6a14bf95207915f91d180d382093e19adfc4133b",
-                "height": 902,
-                "round": 0,
-                "commits": {
-                    "0x2b027dacd33a41ddb09e21805778f19951776ed5": "0x1532c58faedf9e103dd84aa6aacbd2121aa3a8102faa506e7e152fb10e45bafd31b1c3d372cf5d42f8b27a8bfea112ae194de76d99206f73837ad8c30267e6a501",
-                    "0x2d74a106464fbdf94e47bb28605a1aa244ab7788": "0x2ec53371cee732d59d23a58cf6cf53d818fb906fdeb5b0521a3a4cdbb75cf29658a1ff5fa95e4dc71563cbed10070c68e2eec0f812fa3be8e019b6df6e9ea66201",
-                    "0x3efd4959af72e1214ab83caa0f04a0cc3e54d383": "0xb051f0cc41bc3caed472d3c7a35e06d805e8f6d15ccb3efc257d71ee96932c5877a8e52fc29cb3bef73e0edbad62c617c4dd16763709b2604ab8b1db2d87736301",
-                    "0x5223818f7096520bfad68ce3d5ac959267dbc45f": "0x1cf6f8dc9654d461a317db199de0ed0d2d008762833b3358e269ceb3c412b60b3f1a2bd08f969e0dc1c9ebe1a0710002f853438a6ef3ea048de9b4e67387827400"
-                }
-            },
-            "stateRoot": "0xe29266e5574bc0c848b513d36403d4da71f99f328d3324e8d3134809c33d4fb4",
-            "transactionsRoot": "0xf31e32611322f410f430ef8141c2237c19dd1034eddef8dedba692ec9851799b",
-            "receiptsRoot": "0x9646cf2572734b4b13fe1616446ab2658e208cfdbaf25e47ebea9b6327e10c5b",
-            "quotaUsed": "0x0",
-            "number": "0x387",
-            "proposer":"0xe6d430a2d830236d3774d148cbee72bbf26cd481"
-        },
-        "body": {
-            "transactions": [
-                {
-                    "hash": "0xf31e32611322f410f430ef8141c2237c19dd1034eddef8dedba692ec9851799b",
-                    "content":"0x0a28356230373365393233333934346235653732396534366436313866306438656466336439633334611a80040aba030a28356230373365393233333934346235653732396534366436313866306438656466336439633334611a87030a013010a08d0622fd026060604052341561000c57fe5b5b7f4f8cfde3439a1a302c21ca51eec26086efbfd940b8c0279889fc6bb6e73ecc6633604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a15b5b60fd806100806000396000f30060606040526000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806360fe47b11460445780636d4ce63c146061575bfe5b3415604b57fe5b605f60048080359060200190919050506084565b005b3415606857fe5b606e60c6565b6040518082815260200191505060405180910390f35b7fc6d8c0af6d21f291e7c359603aa97e0ed500f04db6e983b9fce75a91c6b8da6b816040518082815260200191505060405180910390a1806000819055505b50565b600060005490505b905600a165627a7a7230582079ba3769927f0f8cf4bec7ce02513b56823c8fc3f4047989951e042a9a04651900292080808080101241d51ca7a0171113478f47357a71c240bd0431f52639741a6721725de276a88d2e723b12f4bbeb1cdddea63f947ddb9db6e2667f08a03af1577c42d3c1a3dc5a7c01208080808010"
-                }
-            ]
+  "id": 1,
+  "jsonrpc": "2.0",
+  "result": {
+    "body": {
+      "transactions": [
+        "0xc44bcd07a11869ec8b21afcaff1a3dc01968ddfdd6d5dd87ef7c05ec8e870dea"
+      ]
+    },
+    "hash": "0xcd14b33d4d38292e7c1cfdc2e1cb086b2df0e3da3a32b51855ed8d86d03328d5",
+    "header": {
+      "number": "0x783df",
+      "prevHash": "0x4eeb0bd3dfaa43592b7aca3276ef9068b04530556c33670b972ba77558e7f4b9",
+      "proof": {
+        "Bft": {
+          "commits": {
+            "0x01e05c50a16a6e3090cec83a0e4d979a80b4a50c": "0xb220ebf0878154fd5572d51eb4b1d94ebb69819eae3852e87dc3aaee3152a2620e120281c4be53e23187c725a339f971570c798cd7fe736f66d3fa44c17b160c01",
+            "0x31ef267a8fbff983f5688152073831ddd0b3cd62": "0x19467386a83129a77ed41ce06aa27781a4d4d74384dd43b3c4c8f9ff6912046d371842cc5afa2602e9e0651045d9caf21c3be764148e188c494ae63c5cacca1c00",
+            "0x82cbce4882fb7d0b43fee0fa1e6c120d6ec88f56": "0x1493115c3454698b1a59f5c9d375df927938e374c736b194885fdc123c3bceee79a3649531c6529f769b81691c412f1df156fc3f287f429766d5338dd5c359a800",
+            "0xad36c88fe091370d91f896f8d02fa906ef74fee6": "0x0f0cde1fd45991fff4d6339725463fd9fddab823cbc8c29e0849ae4373d2acb23f2418b3dc5e33ab05d6c60cae2a49513bf79b23f9915de04e0b23f48a5c6f7401",
+            "0xbd4bf97e04c0cb0676953c71554768c5435119db": "0x764dc9cec7fe0112ee59d2fb50f2f472d8dd6bad5f6c9a1dd894f438491ad4da2dbd7456e706d1255fc64e12c238900a654a179564dcf021113d42e48ec3083801"
+          },
+          "height": 492510,
+          "proposal": "0x0b44f62f809bdcd586eed0311541e10d6362bd761e717ee419e06e73d24a443e",
+          "round": 0
         }
-    }
+      },
+      "proposer": "0x31ef267a8fbff983f5688152073831ddd0b3cd62",
+      "quotaUsed": "0x6959e",
+      "receiptsRoot": "0x3740e43cb5c900eccaa00f2d29746b00ec1194e3a765fc94203c11cf004a9dee",
+      "stateRoot": "0x869738f685aa19a0562401c10a586fd3eb359a5e74baaa6c59a95528c7bd3aaf",
+      "timestamp": 1565966791657,
+      "transactionsRoot": "0xc44bcd07a11869ec8b21afcaff1a3dc01968ddfdd6d5dd87ef7c05ec8e870dea"
+    },
+    "version": 2
+  }
 }
 
 ```
+
+Block结构
+
+- version: u32
+- header: BlockHeader结构
+- body: BlockBody结构
+
+BlockHeader结构
+
+- prevhash: 上一个块的Keccak 256-bit哈希值
+- timestamp: Unix时间戳
+- proof: Proof结构，上一个块的签名信息
+- number: uint64 块号
+- proposer：当前块出块者
+- quotaUsed：当前块所有交易 quota 之和
+- receiptsRoot：交易回执根 Hash
+- stateRoot：状态树根 Hash
+- transactionsRoot：当前块交易树根 Hash
+
+BlockBody结构
+
+- transactions: 交易列表
 
 * * *
 
