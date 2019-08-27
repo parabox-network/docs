@@ -1,6 +1,6 @@
 ### Parabox 接入指南
 
-1. 创建一个账户
+####1. 创建一个账户
 
    1. 通过浏览器内置钱包或移动端钱包创建：
 
@@ -47,7 +47,7 @@
       }
       ```
 
-2. 查询账户余额：
+####2. 查询账户余额：
 
    1. 通过 JS SDK：
 
@@ -63,7 +63,7 @@
       curl -X POST --data '{"jsonrpc":"2.0","method":"getBalance","params":["0xea57cde6138f1c049fc3894331e3ab16c5a07896", "latest"],"id":1}' 47.92.173.78:1337
       ```
 
-3. 发送一笔交易
+####3. 发送一笔交易
 
    1. 通过 JS SDK：
 
@@ -73,7 +73,7 @@
 
       
 
-4. 查询交易回执
+####4. 查询交易回执
 
    1. 通过 JS SDK：
 
@@ -89,7 +89,7 @@
       curl -X POST --data '{"jsonrpc":"2.0","method":"getTransactionReceipt","params":["0x0e77f2076377117d942c14576ff89a8071bd9f3881c97d886f3be52ae8509332"],"id":1}' 47.92.173.78:1337
       ```
 
-5. 熟悉 Parabox RPC 接口
+####5. 熟悉 Parabox RPC 接口
 
    1. PRC 接口地址：
 
@@ -101,7 +101,7 @@
 
       <https://github.com/parabox-network/docs/blob/master/rpc.md>
 
-6. 熟悉 SDK 
+####6. 熟悉 SDK 
 
    1. JS SDK:
 
@@ -111,6 +111,6 @@
 
       <https://github.com/parabox-network/parabox-sdk-java/blob/master/docs/index.md>
 
-7. 在链上创建智能合约
+####7. 在链上创建智能合约
 
    <https://github.com/parabox-network/parabox-demo>
