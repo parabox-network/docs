@@ -6,11 +6,23 @@
 
       直接根据页面提示创建即可。
 
-      Parabox 浏览器内置钱包：<https://explorer.parabox.cc/#/wallet> , 
+      Parabox 浏览器内置钱包：
 
-      Android 版：<https://download.parabox.cc/parabox.apk>  , 
+      ​	主网：<https://explorer.parabox.cc/#/wallet> 
 
-      iOS 版：<https://testflight.apple.com/join/dB6G64aV>
+      ​	测试网：<http://39.100.63.66/#/wallet> 
+
+      Android 版：
+
+      ​	主网：<https://download.parabox.cc/parabox.apk>  
+
+      ​	测试网：<http://39.100.63.66:8091/parabox.apk>
+
+      iOS 版：
+
+      ​	主网：<https://testflight.apple.com/join/dB6G64aV>
+
+      ​	测试网：https://testflight.apple.com/join/cnH8To1m
 
    2. 通过 SDK创建：
 
